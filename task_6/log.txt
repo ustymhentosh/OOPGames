@@ -1,0 +1,446 @@
+
+You are a student of the Lviv Polytechnic,
+before leaving for classes, your dad asked
+you to go to the Epicenter and buy a size 13 wrench.
+There are 3 Epicenters in Lviv, getting to each
+epicenter takes energy, and trouble can happen
+along the way. You live in Ryasne 2 district,
+remember to go back.
+
+You are standing on Stepan Bandera Street, unfortunately,
+the Lviv metro is being repaired today, so you will have to walk.
+
+
+Instruction
+==============
+[STOP THE GAME] - to leave the game at any moment
+While on street:
+--------------
+[enter] - to enter building including Home
+[enter_ep] - to enter Epicentern
+[take] - to take items like apples, or take transport
+[steet name ex. [Horodotska]] - to move to another street
+
+While in building:
+--------------
+[leave] - to leave from steet
+[talk] - to talk with someone
+[fight] - to fight enemy
+[lose] - to lose automatically
+
+NOTE: any other commands will be interpreted as leave, lose, or ignored
+
+
+
+Stepana Bandery street
+--------------
+Mykolaya Kopernyka street is nearby, it would take 3 minutes
+Horodotska street is nearby, it would take 8 minutes
+Aztec Stadium is here it would take 4 minutes
+Your backpack: []
+Your health: 30
+Your time: 100
+> enter
+
+Aztec Stadium
+--------------
+Checo is here
+You can talk or leave
+> talk
+I am Checo, take this reflexes, to defend against Latifi
+
+
+Stepana Bandery street
+--------------
+Mykolaya Kopernyka street is nearby, it would take 3 minutes
+Horodotska street is nearby, it would take 8 minutes
+Aztec Stadium is here it would take 4 minutes
+Your backpack: ['reflexes']
+Your health: 30
+Your time: 96
+> Mykolaya Kopernyka
+
+
+Mykolaya Kopernyka street
+--------------
+Heroyiv Majdanu street is nearby, it would take 2 minutes
+Stepana Bandery street is nearby, it would take 0 minutes
+Prospect Svobody street is nearby, it would take 2 minutes
+Garage is here it would take 5 minutes
+svizhe yabluko is here
+Your backpack: ['reflexes']
+Your health: 30
+Your time: 93
+> take
+An apple a day keeps a doctor away
+
+
+Mykolaya Kopernyka street
+--------------
+Heroyiv Majdanu street is nearby, it would take 2 minutes
+Stepana Bandery street is nearby, it would take 0 minutes
+Prospect Svobody street is nearby, it would take 2 minutes
+Garage is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko']
+Your health: 30
+Your time: 103
+> enter
+
+Garage
+--------------
+Valteri is here
+You can talk or leave
+> talk
+I am Valteri Bottas, take this fastest lap, to defend against Toto
+
+
+Mykolaya Kopernyka street
+--------------
+Heroyiv Majdanu street is nearby, it would take 2 minutes
+Stepana Bandery street is nearby, it would take 0 minutes
+Prospect Svobody street is nearby, it would take 2 minutes
+Garage is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap']
+Your health: 30
+Your time: 98
+> Heroyiv Majdanu
+
+
+Heroyiv Majdanu street
+--------------
+Mykolaya Kopernyka street is nearby, it would take 3 minutes
+Stryiska street is nearby, it would take 9 minutes
+Wind tunnel is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap']
+Your health: 30
+Your time: 96
+> enter
+
+Wind tunnel
+--------------
+Christian Horner is here
+You can talk or leave
+> talk
+I am Christian Horner, wrench is not in Epicenter on Stryiska, also take this book, to defend against FIA
+
+
+Heroyiv Majdanu street
+--------------
+Mykolaya Kopernyka street is nearby, it would take 3 minutes
+Stryiska street is nearby, it would take 9 minutes
+Wind tunnel is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book']
+Your health: 30
+Your time: 91
+> Mykolaya Kopernyka
+
+
+Mykolaya Kopernyka street
+--------------
+Heroyiv Majdanu street is nearby, it would take 2 minutes
+Stepana Bandery street is nearby, it would take 0 minutes
+Prospect Svobody street is nearby, it would take 2 minutes
+Garage is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book']
+Your health: 30
+Your time: 88
+> Prospect Svobody
+
+
+Prospect Svobody street
+--------------
+Mykolaya Kopernyka street is nearby, it would take 3 minutes
+Bohdana Hmelnytskoho street is nearby, it would take 7 minutes
+Horodotska street is nearby, it would take 8 minutes
+Campus is here it would take 6 minutes
+marshrutka is here
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book']
+Your health: 30
+Your time: 86
+> take
+Slow and not efficient transport
+
+
+Prospect Svobody street
+--------------
+Mykolaya Kopernyka street is nearby, it would take 3 minutes
+Bohdana Hmelnytskoho street is nearby, it would take 7 minutes
+Horodotska street is nearby, it would take 8 minutes
+Campus is here it would take 6 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka']
+Your health: 30
+Your time: 81
+> enter
+
+Campus
+--------------
+FIA is here
+You can talk or leave
+> talk
+I am FIA(Fédération Internationale de Automobile) I will revrite rules and demand 50000$ from you
+You either fight or lose, what do you chose
+> fight
+chose your weapon > book
+Well done you won! You get more time
+
+
+Prospect Svobody street
+--------------
+Mykolaya Kopernyka street is nearby, it would take 3 minutes
+Bohdana Hmelnytskoho street is nearby, it would take 7 minutes
+Horodotska street is nearby, it would take 8 minutes
+Campus is here it would take 6 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka']
+Your health: 30
+Your time: 85
+> Horodotska
+
+
+Horodotska street
+--------------
+Stepana Bandery street is nearby, it would take 0 minutes
+Prospect Svobody street is nearby, it would take 2 minutes
+Kiltseva street is nearby, it would take 6 minutes
+Shevchenka street is nearby, it would take 7 minutes
+Petronas Towers is here it would take 7 minutes
+Epicenter on Horodotska is here it would take 5 minutes
+rover is here
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka']
+Your health: 30
+Your time: 77
+> take
+Fast and efficient transport
+
+
+Horodotska street
+--------------
+Stepana Bandery street is nearby, it would take 0 minutes
+Prospect Svobody street is nearby, it would take 2 minutes
+Kiltseva street is nearby, it would take 6 minutes
+Shevchenka street is nearby, it would take 7 minutes
+Petronas Towers is here it would take 7 minutes
+Epicenter on Horodotska is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover']
+Your health: 30
+Your time: 82
+> enter
+
+Petronas Towers
+--------------
+Toto is here
+You can talk or leave
+> talk
+I am Toto, you need to change your car or I will report on you
+You either fight or lose, what do you chose
+> rover
+All unrecognzed commands are interpreted as leave or lose
+
+
+Horodotska street
+--------------
+Stepana Bandery street is nearby, it would take 0 minutes
+Prospect Svobody street is nearby, it would take 2 minutes
+Kiltseva street is nearby, it would take 6 minutes
+Shevchenka street is nearby, it would take 7 minutes
+Petronas Towers is here it would take 7 minutes
+Epicenter on Horodotska is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover']
+Your health: 30
+Your time: 75
+> enter
+
+Petronas Towers
+--------------
+Toto is here
+You can talk or leave
+> talk
+I am Toto, you need to change your car or I will report on you
+You either fight or lose, what do you chose
+> fight
+chose your weapon > rover
+You lost!
+
+
+Horodotska street
+--------------
+Stepana Bandery street is nearby, it would take 0 minutes
+Prospect Svobody street is nearby, it would take 2 minutes
+Kiltseva street is nearby, it would take 6 minutes
+Shevchenka street is nearby, it would take 7 minutes
+Petronas Towers is here it would take 7 minutes
+Epicenter on Horodotska is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover']
+Your health: 20
+Your time: 68
+> enter_ep
+
+Epicenter on Horodotska
+--------------
+Wrenches here: [2, 3, 5, 10, 11, 12, 14, 15, 20, 40]
+take or leave > 12
+All unrecognzed commands are interpreted as leave or lose
+
+
+Horodotska street
+--------------
+Stepana Bandery street is nearby, it would take 0 minutes
+Prospect Svobody street is nearby, it would take 2 minutes
+Kiltseva street is nearby, it would take 6 minutes
+Shevchenka street is nearby, it would take 7 minutes
+Petronas Towers is here it would take 7 minutes
+Epicenter on Horodotska is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover']
+Your health: 20
+Your time: 68
+> enter_ep
+
+Epicenter on Horodotska
+--------------
+Wrenches here: [2, 3, 5, 10, 11, 12, 14, 15, 20, 40]
+take or leave > take
+which size > 12
+
+
+Horodotska street
+--------------
+Stepana Bandery street is nearby, it would take 0 minutes
+Prospect Svobody street is nearby, it would take 2 minutes
+Kiltseva street is nearby, it would take 6 minutes
+Shevchenka street is nearby, it would take 7 minutes
+Petronas Towers is here it would take 7 minutes
+Epicenter on Horodotska is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover', 12]
+Your health: 20
+Your time: 68
+> Prospect Svobody
+
+
+Prospect Svobody street
+--------------
+Mykolaya Kopernyka street is nearby, it would take 3 minutes
+Bohdana Hmelnytskoho street is nearby, it would take 7 minutes
+Horodotska street is nearby, it would take 8 minutes
+Campus is here it would take 6 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover', 12]
+Your health: 20
+Your time: 66
+> Bohdana Hmelnytskoho
+
+
+Bohdana Hmelnytskoho street
+--------------
+Prospect Svobody street is nearby, it would take 2 minutes
+Race track is here it would take 10 minutes
+Epicenter on Hmelnytskoho is here it would take 7 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover', 12]
+Your health: 20
+Your time: 59
+> enter
+
+Race track
+--------------
+Latifi is here
+You can talk or leave
+> talk
+I am Latifi, I will crash my car into you
+You either fight or lose, what do you chose
+> fight
+chose your weapon > reflexes
+Well done you won! You get more time
+
+
+Bohdana Hmelnytskoho street
+--------------
+Prospect Svobody street is nearby, it would take 2 minutes
+Race track is here it would take 10 minutes
+Epicenter on Hmelnytskoho is here it would take 7 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover', 12]
+Your health: 20
+Your time: 59
+> enter_ep
+
+Epicenter on Hmelnytskoho
+--------------
+Wrenches here: [5, 7, 9, 10, 13, 14, 16, 17, 21, 31]
+take or leave > 13
+All unrecognzed commands are interpreted as leave or lose
+
+
+Bohdana Hmelnytskoho street
+--------------
+Prospect Svobody street is nearby, it would take 2 minutes
+Race track is here it would take 10 minutes
+Epicenter on Hmelnytskoho is here it would take 7 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover', 12]
+Your health: 20
+Your time: 59
+> enter_ep
+
+Epicenter on Hmelnytskoho
+--------------
+Wrenches here: [5, 7, 9, 10, 13, 14, 16, 17, 21, 31]
+take or leave > take
+which size > 13
+
+
+Bohdana Hmelnytskoho street
+--------------
+Prospect Svobody street is nearby, it would take 2 minutes
+Race track is here it would take 10 minutes
+Epicenter on Hmelnytskoho is here it would take 7 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover', 12, 13]
+Your health: 20
+Your time: 59
+> Prospect Svobody
+
+
+Prospect Svobody street
+--------------
+Mykolaya Kopernyka street is nearby, it would take 3 minutes
+Bohdana Hmelnytskoho street is nearby, it would take 7 minutes
+Horodotska street is nearby, it would take 8 minutes
+Campus is here it would take 6 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover', 12, 13]
+Your health: 20
+Your time: 57
+> Horodotska
+
+
+Horodotska street
+--------------
+Stepana Bandery street is nearby, it would take 0 minutes
+Prospect Svobody street is nearby, it would take 2 minutes
+Kiltseva street is nearby, it would take 6 minutes
+Shevchenka street is nearby, it would take 7 minutes
+Petronas Towers is here it would take 7 minutes
+Epicenter on Horodotska is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover', 12, 13]
+Your health: 20
+Your time: 49
+> Shevchenka
+
+
+Shevchenka street
+--------------
+Horodotska street is nearby, it would take 8 minutes
+Kiltseva street is nearby, it would take 6 minutes
+Home is here it would take 5 minutes
+pidzemnyi perehid is here
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover', 12, 13]
+Your health: 20
+Your time: 42
+> take
+I told you lviv metro is being repaired, whole underground is closed
+
+
+Shevchenka street
+--------------
+Horodotska street is nearby, it would take 8 minutes
+Kiltseva street is nearby, it would take 6 minutes
+Home is here it would take 5 minutes
+Your backpack: ['reflexes', 'svizhe yabluko', 'fastest lap', 'book', 'marshrutka', 'rover', 12, 13, 'pidzemnyi perehid']
+Your health: 20
+Your time: 38
+> enter
+
+You won
