@@ -1,10 +1,7 @@
 """
 Journey trough Lviv
 """
-
-global to_do
-to_do = 'again'
-
+again = True
 
 def main():
     def set_neighbours(self, neighbour):
@@ -399,7 +396,7 @@ NOTE: any other commands will be interpreted as leave, lose, or ignored
 
     won = False
 
-    while me.time and me.health:
+    while me.time > 0 and me.health > 0:
         print("\n")
         current_street.describe()
         print(f"Your backpack: {[i.name for i in me.backpack]}")
@@ -518,6 +515,8 @@ NOTE: any other commands will be interpreted as leave, lose, or ignored
     else:
         print('That`s unfortunate\nChose [again] or [exit]')
         to_do = input('>')
+    return to_do
 
-if to_do == 'again':
-    main()
+if again:
+    while main() == 'again':
+        continue
